@@ -1,0 +1,127 @@
+
+
+*{
+    margin: 0;
+}
+/* ICONO DE WHATSAPP */
+#whatsapp {
+    width: 64px;
+    border-radius: 32px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;    
+    overflow: unset;
+
+}
+
+/* ESTILO DE CUERPO PRINCIPAL */
+body{
+    background-color: #F9EEC2;
+
+}
+p {
+    color: #58635C;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+}
+h1{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.2em;  
+}
+
+h1 {
+    color: #CB461B;
+    /* font-size: 30px; */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    color: #a09c9bf0;
+    /* font-size: 30px; */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+/* ESTILO DE ENCABEZADO */
+#Encabezado {
+    background-color: cadetblue;
+    background-image:  url("fondo-encabezado,webp");
+}
+
+.title-site {
+    height: 100px;
+    padding-left: 20px;
+    
+}
+
+
+
+.title-site > img {
+    display: block;
+    float: left;
+}
+
+.title-site > h3 {
+    display: block;
+    float: left;
+
+    /* position: absolute;
+    width: 150px;
+    top: 20px;
+    left: 40px; */
+}
+
+
+/* ESTILODE CATALOGO */
+#Catalogo {
+    background-color: #FFF;
+    padding: 15px;
+}
+.producto > p {
+    font-family:'Courier New', Courier, monospace ;
+}
+.producto {
+    display: block;
+    margin: 10px;
+    border-color : #cb461b;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 10px;
+    height: 100%;
+    
+}
+
+.producto > img {
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top:10px ;
+}
+
+.producto > h3 {
+    margin-bottom: 10px;
+}
+
+
+/* Pie de Pagina */
+#Pie {
+    padding: 60px 0px 60px 0px;
+    border-top: 4px red solid;
+    /* border-top: 4px rgb(100, green, blue); */
+    border-top-style: double;
+    background: greenyellow;
+
+}
+
+#Pie > p {
+    display: none;
+    text-align: center;
+    color: #FFF;
+}
+
